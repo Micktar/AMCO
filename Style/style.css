@@ -11123,4 +11123,39 @@ html {
   font-size: 10px;
 }
 
+/* Barre de navigation*/
+#logo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#navbar_content {
+  padding: 10px;
+}
+#navbar_content a:active {
+  color: red;
+}
+
+#btn_navbar > .navbar-toggler {
+  color: red;
+  border-color: yellow;
+  border-radius: 10px;
+}
+
+.nav-item {
+  box-shadow: -0.2em 0 0.5em #a6a778;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0.2em;
+}
+
+#Nav > .container > .row {
+  margin: auto;
+}
+
+#dropdown_archives {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 9px;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
