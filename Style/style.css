@@ -11204,7 +11204,7 @@ h1 {
   font-size: 13px;
 }
 
-.first_article > div .card-body > p {
+.New_year > div .card-body > p {
   font-family: "Gloria Hallelujah", cursive;
 }
 
@@ -11214,7 +11214,7 @@ h1 {
   font-size: 20px;
 }
 
-.second_article > div .adhésion {
+.general_information > div .adhésion {
   font-size: 11px;
   text-decoration: underline;
 }
@@ -11285,5 +11285,7 @@ h1 {
 .progress_bar .progress {
   margin-bottom: 5px;
 }
+
+/*CLUB*/
 
 /*# sourceMappingURL=style.css.map */
