@@ -122,7 +122,8 @@ h1 {
 
   .btn {
     font-size: 9px;
-    width: 80px;
+    width: 100px;
+    font-weight: 700;
   }
 }
 
@@ -154,27 +155,25 @@ h1 {
   }
 }
 
-/* Table officiel participation*/
+/* Officiel table participation*/
 
 .human_participation {
   margin: 1px;
   padding: 0px;
- border: 1px solid black;
+  border: 1px solid black;
   
   h5 {
   font-size: 16px;
   font-weight: bold;
   } 
-
 }
 
 
 #table_participation {
   font-size: 8px ;
-  margin: auto; 
- 
-  tbody > tr {
-    line-height: 20px;
+  
+  td > button {
+    font-size: 6px;
   }
 }
 
@@ -188,8 +187,8 @@ h1 {
   border: 1px solid rgb(180, 171, 171);
   
   h5 {
-font-size: 9px;
-text-align: center;
+    font-size: 9px;
+    text-align: center;
   }
 
   .progress {

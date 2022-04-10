@@ -11224,7 +11224,8 @@ h1 {
 }
 .event > section > .card > .card-body .btn {
   font-size: 9px;
-  width: 80px;
+  width: 100px;
+  font-weight: 700;
 }
 
 .modal-body form > div > label {
@@ -11250,7 +11251,7 @@ h1 {
   text-align: center;
 }
 
-/* Table officiel participation*/
+/* Officiel table participation*/
 .human_participation {
   margin: 1px;
   padding: 0px;
@@ -11263,10 +11264,9 @@ h1 {
 
 #table_participation {
   font-size: 8px;
-  margin: auto;
 }
-#table_participation tbody > tr {
-  line-height: 20px;
+#table_participation td > button {
+  font-size: 6px;
 }
 
 /*progress bar event participation*/
