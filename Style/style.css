@@ -11206,6 +11206,7 @@ h1 {
 
 .New_year > div .card-body > p {
   font-family: "Gloria Hallelujah", cursive;
+  font-size: 12px;
 }
 
 .article_event > div .card-header {
@@ -11300,7 +11301,7 @@ h1 {
   margin-bottom: 5px;
 }
 .statut_club > .row > .col > .card > ul > li h5 {
-  font-size: 11px;
+  font-size: 12px;
   color: #00b7ff;
   font-weight: bold;
   font-style: oblique;
@@ -11309,6 +11310,15 @@ h1 {
 }
 .statut_club > .row > .col > .card > ul > li p {
   padding-left: 5px;
+}
+
+/* Photos*/
+.photos section > p {
+  font-size: 30px;
+  border: 2px solid black;
+  background: lightgray;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
