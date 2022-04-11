@@ -11287,5 +11287,28 @@ h1 {
 }
 
 /*CLUB*/
+.club > section .card > .card-body {
+  text-align: justify;
+}
+
+.statut_club > .row > .col > .card > ul > li {
+  list-style: none;
+  background: lightgray;
+  border: 1px solid black;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
+.statut_club > .row > .col > .card > ul > li h5 {
+  font-size: 11px;
+  color: #00b7ff;
+  font-weight: bold;
+  font-style: oblique;
+  text-decoration: underline;
+  text-align: center;
+}
+.statut_club > .row > .col > .card > ul > li p {
+  padding-left: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
