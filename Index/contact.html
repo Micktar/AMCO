@@ -11,9 +11,130 @@
   <title> Page contact de l'Amicale Motos Cyclos Occitanie</title>
   <meta name="description" content="Retrouvez la page contact de l'Amicale Motos Cyclos Occitanie , une association de Moto-cross et Vélo basée dans l'Ariège" />
 </head>
-
+<header>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="text-warning mx-auto"  id="home" href="/index/accueil.html"> 
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
+        <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z"/>
+      </svg> 
+      Accueil</a>>    
+  </nav>
+</header>
 <body>
-  
+  <main>
+    <div class="contact_page">
+      <h1 class="text-center mt-3 py-2">Formulaire de contact</h1>
+      <section>
+        <div class="formulaire">
+          <form class="needs-validation my-3 py-3" novalidate>
+            <div class="col-8 m-auto">
+              <label for="nom" class="form-label">Nom de famille</label>
+              <input type="text" class="form-control" id="nom" placeholder="Dupont" required>
+              <div class="valid-feedback">
+                Ok
+              </div>
+            </div>
+            <div class="col-8 m-auto">
+              <label for="prénom" class="form-label">Prénom</label>
+              <input type="text" class="form-control" id="prénom" placeholder="Marc" required>
+              <div class="valid-feedback">
+                Ok
+              </div>
+            </div>
+            <div class="col-10 m-auto">
+              <label for="mail" class="form-label">Adresse e-mail</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="mail" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Veuillez rentrer une adresse mail valide
+                </div>
+              </div>
+            </div>
+            <div class="col-5 m-auto">
+              <label for="cp">Code postal</label>
+              <input type="number" class="form-control" id="cp" placeholder="31000" required>
+              <div class="invalid-feedback">
+                Précisez un code postal valide.
+              </div>
+            </div>
+            <div class="col-8 m-auto">
+              <label for="ville" class="form-label">Ville</label>
+              <input type="text" class="form-control" id="ville" placeholder="Toulouse" required>
+              <div class="invalid-feedback">
+               Précisez une ville
+              </div>
+            </div>
+            <div class="col-12 m-auto">
+              <label for="FormControlContactMessage">Message</label>
+              <textarea class="form-control" id="FormControlContactMessage" rows="3"></textarea>                
+            </div>
+            <div class="col-8 m-auto pt-2">
+              <div class="form-check form-check-inline col-6">
+                <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Moto</label>
+              </div>
+              <div class="form-check form-check-inline col-4">
+                <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Vtt</label>
+              </div>
+            </div>
+            <div class="col-8 pt-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="condition_check" required>
+                <label class="form-check-label" for="condition_check">
+                  <a href="/Index/conditions.html" target="blank" id="condition_accept">Lire et accepter les conditions</a> 
+                </label>
+                <div class="invalid-feedback">
+                  Vous devez accepter les conditions avant de valider.
+                </div>
+              </div>
+            </div>
+            <div class="button">
+              <button class="btn btn-success" type="submit">Valider le formulaire</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <div class="footer">
+      <div class="container text-center">
+        <div class="row py-3">
+          <div class="col-4">
+            <div >
+              <a href="https://www.ufolep.org/"><img src="/Annexe/Images/Affiliation/ufolep.png"width="60" height="25">
+              </a> 
+            </div>
+          </div>
+          <div class="col-4">  
+            <div >
+              <a href="https://www.ffmoto.org/"><img src="/Annexe/Images/Affiliation/logo-FFM.jpg"width="60" height="25">
+              </a> 
+            </div>
+          </div>
+          <div class="col-4">
+            <div >
+              <a href="https://www.lmoc.fr/"><img src="/Annexe/Images/Affiliation/Lmoc.jpg"width="60" height="25">
+              </a> 
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="contact">
+            <span>Retrouvez-nous sur :</span>
+            <a href="https://www.facebook.com/AMCO-Amicale-Moto-Cyclo-Occitanie-106697515109895"><img src="/Annexe/Images/Icone/Facebook.png"width="20" height="20">
+            </a> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mt-1 pt-1 " id="copyright">
+            <p>Copyright ©<script>document.write(new Date().getFullYear());</script> by Micktar. Tous droits réservés.</p> 
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>  
 
 
   
