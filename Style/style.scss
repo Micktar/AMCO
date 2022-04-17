@@ -44,10 +44,9 @@ html {
 }
 
 #dropdown_archives {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 9px;
-  padding-top: 0px;
-  padding-left: 20px;
+  font-size: 11px;
+  padding-top: 5px;
+  
 }
 
 /* FOOTER */
@@ -136,8 +135,8 @@ h1 {
 
   .form-check {
     font-size: 9px;
-    font-style: italic;
   }
+
 }
 
 .modal-footer > .btn {
@@ -172,6 +171,12 @@ h1 {
 #table_participation {
   font-size: 8px ;
   
+  .thead-light > tr {
+    color: red;
+    
+  
+  }
+
   td > button {
     font-size: 6px;
   }
@@ -238,8 +243,8 @@ h1 {
 
 /*Contact*/
 
-.contact_page > h1 {
-  background :rgb(209, 204, 204);
+#home {
+  font-size: 15px;
 }
 
 .needs-validation {
@@ -252,37 +257,44 @@ h1 {
   border-style: dotted;
 }
 
-.contact_page > section .btn {
-  float: right;
-  margin-top: 15px;
-  margin-right: 15px;
+.contact_page {
+
+  h1 {
+    background :rgb(209, 204, 204);
+  }
+
+  section .btn {
+    margin-top: 10px;
+  }
+
+  label {
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 11px;
+    padding-top: 3px;
+  }
+
+  #condition_accept {
+    font-size: 8px;
+  }
+  
 }
 
-label {
-  font-weight: bold;
-  font-style: oblique;
-  font-size: 11px;
-  padding-top: 3px;
+
+/*ARCHIVES*/
+
+#scroll_to_top {
+  position:fixed ;
+  width: 18px;
+  height: 18px;
+  bottom: 50px;
+  right: 0px;
 }
 
-
-#condition_accept {
-  font-size: 8px;
-}
 
 
 
 /*PROBLEME
-
-page contact
-
-radio moto Vtt s'active mais ne se désactive pas 
-logo fmm et lmoc n'ont pas de target blank 
-Accueil plus gros .
-
-taille archives trop petite pour un smartphone
-rajouter un bouton fixe pour retour au début
-rajouter des archives 2011-2015
 
 
 finioler les fenetre de participation pilot eet encadrement

@@ -119,8 +119,14 @@
                     <input type="text" class="form-control" id="surname" name="surname" placeholder="François">
                   </div>
                   <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="françois_dupont@moto.fr">
+                    <label for="mail" class="form-label">Adresse e-mail</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text" id="inputGroupPrepend">@</span>
+                      <input type="text" class="form-control" id="mail" aria-describedby="inputGroupPrepend" required placeholder="françois_dupont@moto.fr">
+                      <div class="invalid-feedback">
+                        Veuillez rentrer une adresse mail valide
+                      </div>
+                    </div>
                   </div>
                   <div class="form-group">
                     <label for="message">Message</label>
@@ -153,25 +159,31 @@
                     <input type="text" class="form-control" id="surname" name="surname" placeholder="François">
                   </div>
                   <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="françois_dupont@moto.fr">
+                    <label for="mail" class="form-label">Adresse e-mail</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text" id="inputGroupPrepend">@</span>
+                      <input type="text" class="form-control" id="mail" aria-describedby="inputGroupPrepend" required placeholder="françois_dupont@moto.fr">
+                      <div class="invalid-feedback">
+                        Veuillez rentrer une adresse mail valide
+                      </div>
+                    </div>
                   </div>
                   <div class="form-group">
                     <label for="message">Message</label>
                     <textarea class="form-control" name="message" id="message" rows="2"></textarea>
                   </div>
                 </form>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="50cc">
-                  <label class="form-check-label" for="inlineCheckbox1">50cc</label>
+                <div class="form-check form-check-inline" id="pilote">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox50" value="50cc">
+                  <label class="form-check-label" for="inlineCheckbox50">50cc</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="125cc">
-                  <label class="form-check-label" for="inlineCheckbox2">125cc</label>
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox125" value="125cc">
+                  <label class="form-check-label" for="inlineCheckbox125">125cc</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="250-450cc">
-                  <label class="form-check-label" for="inlineCheckbox3">250-450cc</label>
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox250" value="250-450cc">
+                  <label class="form-check-label" for="inlineCheckbox250">250-450cc</label>
                 </div>
               </div>
               <div class="modal-footer">
